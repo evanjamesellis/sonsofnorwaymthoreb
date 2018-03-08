@@ -1,0 +1,24 @@
+﻿@model sonsofnorwaymthoreb.ViewModels.PhotoGallery.PhotoGalleryViewModel
+
+@{
+    ViewData["Title"] = "Photo Gallery";
+}
+
+<div style="margin-top: 40px;">
+    <ul class="row ul-assist spec center-block">
+        @foreach (var photoGalleryImage in Model.PhotoGalleryImages) {
+            <li class="img-fluid ul-li-assist col-lg-3 col-md-4 col-sm-6 col-xs-12" data-index="@photoGalleryImage.Id">
+                <img class="ul-li-img-assist" src="@photoGalleryImage.FileName"/>
+            </li>
+        }
+    </ul>
+</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>

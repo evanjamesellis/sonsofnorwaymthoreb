@@ -1,0 +1,32 @@
+﻿@model sonsofnorwaymthoreb.ViewModels.Calendar.CalendarViewModel
+
+@{
+    ViewData["Title"] = "Calendar";
+}
+
+<div class="vennelag-section">
+    <div class="text-left">
+        <h2 class="section-header">Calendar</h2>
+        <table class="table">
+            <tbody class="vennelag-text">
+                @foreach (var calendarEvent in Model.CalendarEvents) {
+                    <tr>
+                        <td>
+                            <h4 style="font-size: 1.5em;">@calendarEvent.Date</h4>
+                            @if (calendarEvent.Title != null) {
+                                <h4 style="line-height: 1.4;">@calendarEvent.Title</h4>
+                            }
+                            <br/>
+                            @calendarEvent.Description
+                            @if (calendarEvent.Url != null) {
+                                <a href="@calendarEvent.Url" target="_blank">
+                                    Read more about it here!
+                                </a>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

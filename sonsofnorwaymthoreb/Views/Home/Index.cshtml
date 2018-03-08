@@ -1,0 +1,108 @@
+﻿@model sonsofnorwaymthoreb.ViewModels.Home.HomeViewModel
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- Carousel -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="~/images/banner/banner0.jpg" class="img-responsive" style="width=100%"/>
+            
+            <!--<div class="carousel-caption" role="option">
+                <p>
+                    Test text Test text Test text Test text Test text Test text Test text Test text.
+                </p>
+            </div>-->
+        </div>
+        <div class="item">
+            <img src="~/images/banner/banner1.jpeg" class="img-responsive" />
+        </div>
+        <div class="item">
+            <img src="~/images/banner/banner2.jpeg" class="img-responsive" />
+        </div>
+        <div class="item">
+            <img src="~/images/banner/banner3.jpeg" class="img-responsive" />
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+    <div class="row" style="margin-top:20px;">
+        <div class="col-md-8">
+            <div class="well text-left">
+                <div class="well-assist" >
+                    <h1 class="velkommen">VELKOMMEN</h1>
+                    <p class="lead" style="font-size:21px;">
+                        Vennelag and its members are committed to promote and preserve the heritage and culture of Norway and other Nordic countries.  Providing traditional foods meals, teaching cultural skills (such as rosemal, genealogy, hardanger) and Norsk language.
+                    </p>
+                    <br>
+                    <p class="lead" style="font-size:18px;">
+                        Join us at Mount Horeb Community Center, 107 North Grove Street, Mount Horeb, WI.
+                    </p>
+                </div>
+            </div>
+            <div class="vennelag-section text-left" style="margin-top:50px;">
+                <h2 class="section-header" >
+                    @Model.HomePageEvent.Title
+                </h2>
+                <h4>
+                    @Model.HomePageEvent.Date
+                </h4>
+                <p class="vennelag-text">
+                    @Model.HomePageEvent.Description
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="right-nav center-div">
+                <iframe
+                    width="100%"
+                    height="300"
+                    frameborder="0"
+                    style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCqZ4mWkOU0IxgevmW5StHSORz8DBVv2PQ&q=107+North+Grove+Street+Mount+Horeb+WI">
+                </iframe>
+            </div>
+            <div class="right-nav center-div">
+                <div class="fb-page"
+                     data-href="https://www.facebook.com/Vennelaglodgemthoreb/" 
+                     data-width="500" 
+                     data-adapt-container-width="true"
+                     data-small-header="false"
+                     data-hide-cover="false"
+                     data-show-facepile="false">
+                    <blockquote cite="https://www.facebook.com/Vennelaglodgemthoreb/"
+                                class="fb-xfbml-parse-ignore">
+                        <a href="https://www.facebook.com/Vennelaglodgemthoreb/">Vennelag Lodge Sons of Norway</a>
+                    </blockquote>
+                </div>
+                <div class="fb-page"
+                     data-href="https://www.facebook.com/sonsofnorway/" 
+                     data-width="500" 
+                     data-adapt-container-width="true" 
+                     data-small-header="false" 
+                     data-hide-cover="false" 
+                     data-show-facepile="false">
+                    <blockquote cite="https://www.facebook.com/sonsofnorway/" 
+                                class="fb-xfbml-parse-ignore">
+                        <a href="https://www.facebook.com/sonsofnorway/">Sons of Norway</a>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>

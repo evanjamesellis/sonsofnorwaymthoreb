@@ -1,0 +1,14 @@
+/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb
+--output-path=obj/Debug/netcoreapp2.0/
+--application-name=sonsofnorwaymthoreb
+--content-root=/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb
+--file=/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/Views/AboutUs/Index.cshtml
+--file=/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/Views/AppException/Index.cshtml
+--file=/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/Views/Home/Index.cshtml
+--file=/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/Views/PhotoGallery/Index.cshtml
+--file=/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/Views/Scholarship/Index.cshtml
+--file=/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/Views/Shared/_Layout.cshtml
+--file=/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/Views/Shared/_ValidationScriptsPartial.cshtml
+--file=/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/Views/Vennelag/Index.cshtml
+--file=/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/Views/_ViewImports.cshtml
+--file=/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/Views/_ViewStart.cshtml

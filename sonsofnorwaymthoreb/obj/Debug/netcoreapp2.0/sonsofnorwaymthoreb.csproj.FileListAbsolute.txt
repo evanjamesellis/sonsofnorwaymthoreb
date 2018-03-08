@@ -1,0 +1,10 @@
+/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/bin/Debug/netcoreapp2.0/sonsofnorwaymthoreb.deps.json
+/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/bin/Debug/netcoreapp2.0/sonsofnorwaymthoreb.runtimeconfig.json
+/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/bin/Debug/netcoreapp2.0/sonsofnorwaymthoreb.runtimeconfig.dev.json
+/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/bin/Debug/netcoreapp2.0/sonsofnorwaymthoreb.dll
+/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/bin/Debug/netcoreapp2.0/sonsofnorwaymthoreb.pdb
+/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/obj/Debug/netcoreapp2.0/sonsofnorwaymthoreb.csproj.CoreCompileInputs.cache
+/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/obj/Debug/netcoreapp2.0/sonsofnorwaymthoreb.AssemblyInfoInputs.cache
+/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/obj/Debug/netcoreapp2.0/sonsofnorwaymthoreb.AssemblyInfo.cs
+/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/obj/Debug/netcoreapp2.0/sonsofnorwaymthoreb.dll
+/Users/evanellis/Projects/sonsofnorwaymthoreb/sonsofnorwaymthoreb/obj/Debug/netcoreapp2.0/sonsofnorwaymthoreb.pdb

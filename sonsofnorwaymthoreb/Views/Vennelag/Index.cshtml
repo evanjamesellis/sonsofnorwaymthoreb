@@ -1,0 +1,93 @@
+﻿@model sonsofnorwaymthoreb.ViewModels.Vennelag.VennelagViewModel
+
+@{
+    ViewData["Title"] = "Vennelag";
+}
+
+<div class="row" style="margin-top:30px;">
+    <div class="col-md-7 vennelag-section hidden-md hidden-sm hidden-xs">
+        <img class="img-responsive" src="~/images/vennelag/water.jpg"/>
+    </div>
+    <div class="col-lg-5 vennelag-section">
+        <div class="well text-left">
+            <div class="well-assist-2">
+                <h2 class="section-header">Newsletters</h2>
+                <table class="table">
+                    <tbody>
+                        @foreach (var newsletter in Model.Newsletters) {
+                            <tr>
+                                <td>
+                                    <strong>@newsletter.Date</strong>
+                                </td>
+                                <td>
+                                    <a href="@newsletter.Url" target="_blank">
+                                        @newsletter.Title
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="vennelag-section">
+    <div class="text-left">
+        <h2 class="section-header">Join Vennelag</h2>
+        <p style="font-size:18px;">
+            Contrary to the name Sons of Norway, you don't have to be male or even Norwegian to join. 
+            <br><br>
+            The primary requirement for membership in Vennelag 5-513 is to have an interest in Norwegian cultural and heritage.
+            You are invited to attend any of our programs or special events to find out more about the benefits offered by Sons of Norway.
+            <br><br>
+            <a href="http://sonsofnorway5.com/join/" target="_blank">Download a membership application form or sign up online</a>
+        </p>
+    </div>
+</div>
+
+<div class="vennelag-section">
+    <div class="text-left">
+        <h2 class="section-header">Programs and Activities</h2>
+        <table class="table">
+            <tbody class="vennelag-text">
+                @foreach (var programOrActivity in Model.ProgramsAndActivities) {
+                    <tr>
+                        <td class="td-left">
+                            <strong>@programOrActivity.Name</strong>
+                        </td>
+                        <td>
+                            @programOrActivity.Description
+                            @if (programOrActivity.Url != null) {
+                                <a href="@programOrActivity.Url" target="_blank">
+                                    Read more about it here!
+                                </a>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="vennelag-section">
+    <div class="text-left">
+        <h2 class="section-header">Lutefisk Dinners</h2>
+        <table class="table">
+            <tbody class="vennelag-text">
+                @foreach (var lutefiskDinner in Model.LutefiskDinners) {
+                    <tr>
+                        <td class="td-left">
+                            <strong>@lutefiskDinner.Date</strong>
+                        </td>
+                        <td>
+                            @lutefiskDinner.Description
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
